@@ -20,3 +20,16 @@
 .worldplant-demo .case-prose{max-width:530px}
 #design .case-gallery{margin-top:26px}
 @media(max-width:650px){.selected-projects-grid .worldplant-card{display:block}.worldplant-demo{grid-template-columns:1fr;gap:24px}.worldplant-demo>div{grid-row:1}.worldplant-demo .video-figure video{max-height:min(70vh,570px)}}
+
+/* Keep low-resolution wireframes near their original size and crop Figma canvas labels. */
+.worldplant-wireframes{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start;gap:24px}
+.worldplant-wireframes .image-button{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 12px 12px;min-height:264px;background:#201f1f;gap:12px}
+.wireframe-viewport{position:relative;display:block;overflow:hidden;width:min(100%,var(--crop-width));flex:none}
+.image-button .wireframe-viewport img,.screenshot-dialog .wireframe-viewport img{position:absolute;max-width:none;height:auto;display:block;margin:0;transition:none}
+.worldplant-wireframes .zoom-hint{position:static;align-self:flex-end;padding:5px 8px;font-size:10px}
+.screenshot-dialog.wireframe-dialog{width:min(600px,94vw)}
+.screenshot-dialog.wireframe-dialog .wireframe-viewport{margin:20px auto}
+@media(max-width:1050px){.worldplant-wireframes{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.worldplant-wireframes{grid-template-columns:1fr}.worldplant-wireframes .image-button{min-height:0}}
+
+.worldplant-wireframes .image-button:hover img{filter:none}
