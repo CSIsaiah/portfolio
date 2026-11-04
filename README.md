@@ -1,7 +1,8 @@
 # Isaiah Vander Wagen — Personal Portfolio
 
-Personal portfolio with four computer science project case studies:
+Personal portfolio with five computer science project case studies:
 
+- **WorldPlant:** group Human-Centered Computing project; Plant Search and Challenges contributions, design process, and a working app walkthrough.
 - **Super Chess:** group project; queen teleport ability and mouse-driven popup menu.
 - **Post Pals:** group project; map layout and player/enemy movement.
 - **Desert Swarm:** individual survival shooter; gameplay systems and an unfinished two-player adaptation.
