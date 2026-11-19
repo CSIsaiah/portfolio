@@ -2,7 +2,7 @@
 
 Personal portfolio with five computer science project case studies:
 
-- **WorldPlant:** group Human-Centered Computing project; Plant Search and Challenges contributions, design process, and a working app walkthrough.
+- **WorldPlant:** group Human-Centered Computing project; Plant Search and Challenges contributions, design process, public app repository, and updated search, recurring-task, and customization demos.
 - **Super Chess:** group project; queen teleport ability and mouse-driven popup menu.
 - **Post Pals:** group project; map layout and player/enemy movement.
 - **Desert Swarm:** individual survival shooter; gameplay systems and an unfinished two-player adaptation.

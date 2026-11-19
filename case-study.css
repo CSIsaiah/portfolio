@@ -33,3 +33,16 @@
 @media(max-width:650px){.worldplant-wireframes{grid-template-columns:1fr}.worldplant-wireframes .image-button{min-height:0}}
 
 .worldplant-wireframes .image-button:hover img{filter:none}
+
+/* Current WorldPlant feature recordings. */
+.worldplant-demo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:30px 0 0}
+.worldplant-demo-card{min-width:0;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:#1a171f}
+.demo-screen{height:490px;padding:20px;background:radial-gradient(ellipse at 50% 100%,#32364b,#121019 78%)}
+.demo-screen video{width:100%;height:100%;display:block;object-fit:contain;border-radius:3px;background:#100e16}
+.demo-card-copy{padding:24px}
+.demo-card-copy h3{font-family:'Manrope',Arial,sans-serif;font-size:24px;letter-spacing:-.04em;line-height:1.25;margin:12px 0 16px}
+.demo-card-copy p{font-size:16px;line-height:1.65;color:var(--muted)}
+.demo-card-copy .demo-duration{font-size:13px;margin:0;color:var(--green)}
+.demo-card-copy .text-link{font-size:14px}
+@media(max-width:1000px){.worldplant-demo-grid{grid-template-columns:1fr}.worldplant-demo-card{display:grid;grid-template-columns:minmax(220px,.9fr) minmax(0,1fr);align-items:center}.demo-screen{height:440px}.demo-card-copy{padding:28px}}
+@media(max-width:650px){.worldplant-demo-card{display:block}.demo-screen{height:480px}.demo-card-copy{padding:24px}.worldplant-demo-grid{gap:24px}}
